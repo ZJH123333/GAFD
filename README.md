@@ -5,6 +5,7 @@ The source code for **G**raph **A**ugmentation Guided **F**ederated Knowledge **
 **Graph Augmentation Guided Federated Knowledge Distillation for Multisite Functional MRI Analysis and Brain Disorder Identification**
 
 Qianqian Wang, Junhao Zhang, Lishan Qiao, Pew-Thian Yap, Mingxia Liu
+
 Qianqian Wang and Junhao Zhang contributed equally to this work
 
 ## Datasets
