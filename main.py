@@ -286,7 +286,7 @@ for k in range(argv.k_fold):
                 if iter_num == argv.num_iters - 1: # Save test sample features from the last communication
                     Feature.extend(org_feature.tolist())
 
-            # 计算评价指标
+            # Calculation the evaluation metrics
             Prob = np.array(Prob)
             evaluation_metrics = evaluate(pred=Pred, prob=Prob, label=Label, acc_only=argv.acc_only)
             print('k:', k, 'i:', iter_num, 's:', site, 'result:')
@@ -296,7 +296,7 @@ for k in range(argv.k_fold):
                    'auc': evaluation_metrics[3],
                    'f1': evaluation_metrics[4]})
 
-            # Calculation the evaluation metrics
+
             ACCURACY_k.append(evaluation_metrics[0])
             if not argv.acc_only:
                 PRECISION_k.append(evaluation_metrics[1])
